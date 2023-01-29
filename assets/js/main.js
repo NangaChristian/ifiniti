@@ -124,13 +124,13 @@
 						// Deactivate current article.
 							var $currentArticle = $main_articles.filter('.active');
 
-							$currentArticle.removeClass('active');
+							$currentArticle.removeClass('active')
 
 						// Show article.
 							setTimeout(function() {
 
 								// Hide current article.
-									$currentArticle.hide();
+									$currentArticle.hide()
 
 								// Show article.
 									$article.show();
